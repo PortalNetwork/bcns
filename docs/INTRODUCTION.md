@@ -1,7 +1,7 @@
 # Introduction
 
 ## What is BCNS?
-BCNS is the Bitcoin Cash Name Service, a distributed, open, and extensible naming system based on the Bitcoin Cash blockchain.  
+BCNS eliminates the need to copy or type long addresses. With BNS, you'll be able to send token to anyone at 'yourfriend.bch' instead of 'pqkh9ahfj069qv8l6eys...', interact with your favorite contract at 'mycontract.bch', or visit an IPFS-hosted site at 'mywebsite.bch’.
 BCNS is to map human-readable names like `portal.bch` to machine-readable identifiers such as Bitcoin Cash addresses, content hashes, and metadata. BCNS also supports `reverse resolution`, making it possible to associate metadata such as canonical names or interface descriptions with Bitcoin Cash addresses.
 
 BCNS has similar goals to DNS, the Internet’s Domain Name Service, but has significantly different architecture, due to the capabilities and constraints provided by the Bitcoin Cash blockchain. Like DNS, ECNS operates on a system of dot-separated hierarchial names called domains, with the owner of a domain having full control over the allocation of subdomains.
