@@ -8,7 +8,7 @@ The bidding process will take `z` days in total. The first `n` days will be open
 Lastly, every interact with the BCNS smart contract, including bidding, selling, and buying will result in transaction fee. Depending on the need of ICON foundation, these fees could be either burned, give out to the contract creator as incentive or contribute back to the ICON community. The smart contract could be designed accordingly to compromise the need. 
 
 #### Settings
-`x`: default is 7.
-`y`: default is 8.
-`z`: default is 5.
-`n`: default is 3.
+- `x`: default is 7.
+- `y`: default is 8.
+- `z`: default is 5.
+- `n`: default is 3.
