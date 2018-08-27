@@ -11,12 +11,12 @@ BCNS eliminates the need to copy or type long addresses. With BNS, you'll be abl
 
 #### Table of Contents
 -  [Introduction](./docs/INTRODUCTION.md)
+-  [BNS Protocol](./docs/BNS_PROTOCOL.md)
 -  [Implementation](./docs/IMPLEMENTATION.md)
     - [Registry](./docs/REGISTRY.md)
     - [Registrar](./docs/REGISTRAR.md)
     - [Resolver](./docs/RESOLVER.md)
     - [ReverseRegistrar](./docs/REVERSE_REGISTRAR.md)
--  [Developer Guide](./docs/DEVELOPER_GUIDE.md)
 -  [Integration](./docs/INTEGRATION.md)
 
 ## 📣 Contributing
