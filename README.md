@@ -2,6 +2,9 @@
 
 > 📙🔍 Documents and implementations for the Bitcoin Cash Name Service.
 
+## What is BNS?
+BNS – or blockchain name system – is the protocol on the internet that turns human-comprehensible decentralized website names such as ‘website.bch or ‘mywebsite.eth’ into addresses understandable by decentralized network machines.
+
 ## 📝 Description
 
 BCNS is the Bitcoin Cash Name Service, a distributed, open, and extensible naming system based on the Bitcoin Cash blockchain.
