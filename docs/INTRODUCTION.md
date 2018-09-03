@@ -8,7 +8,7 @@ BCNS has similar goals to DNS, the Internet’s Domain Name Service, but has sig
 
 Top-level domains, like `.bch` are owned by smart contracts called registrars, which specify rules governing the allocation of their subdomains. Anyone may, by following the rules imposed by these registrar contracts, obtain ownership of a second-level domain for their own use.
 
-## What is Omni Layer
+## What is Omni Layer?
 The Omni Layer is a communications protocol that uses the Bitcoin block chain to enable features such as smart contracts, user currencies and decentralized peer-to-peer exchanges. A common analogy that is used to describe the relation of the Omni Layer to Bitcoin is that of HTTP to TCP/IP: HTTP, like the Omni Layer, is the application layer to the more fundamental transport and internet layer of TCP/IP, like Bitcoin.
 
 ## Why we need BCNS?
