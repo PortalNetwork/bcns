@@ -84,16 +84,16 @@ This section defines the fields that are used to construct transaction messages.
     - 54: Set text associate with domain(key-value pair)
 
 ## What is Omni Layer?
-Omni Layer is a communication protocol that uses Bitcoin blockchain to implement smart contracts. Omni Core is a fast, portable Omni layer implementation based on the Bitcoin core code base. Omni Layer does not require external dependencies that are not related to Bitcoin Core, and like other Bitcoin nodes, it is itself a bitcoin network. The Omni Layer extension is exposed through the JSON-RPC interface.
+Omni Layer is a communication protocol that uses Bitcoin blockchain to implement smart contracts. Omni Core is a fast, portable Omni layer implementation based on the Bitcoin core code base. Omni Layer does not require external dependencies that are not related to Bitcoin Core, and like other Bitcoin nodes, it is itself a bitcoin network. The Omni Layer extension is exposed through the JSON-RPC interface.
 
 ### Dependency
 
 Library     | Purpose          | Description
 ------------|------------------|--------------------
-libssl      | Crypto           | Random number generation, encrypt by Elliptic curve cryptography 
+libssl      | Crypto           | Random number generation, encrypt by Elliptic curve cryptography 
 libboost    | Utility          | Thread, data structure
 libevent    | Networking       | Independent network of the operating system
-miniupnpc   | UPnP Support     | Across the firewall
+miniupnpc   | UPnP Support     | Across the firewall
 libdb4.8    | Berkeley DB      | Storage (only needed when wallet enabled)
 qt          | GUI              | GUI toolkit (only needed when GUI enabled)
 protobuf    | Payments in GUI  | Data exchange format in payment protocol (only needed when GUI enabled)
@@ -110,23 +110,23 @@ The C++ compiler consumes more memory, and the official recommendation is to hav
 
 ### Install 
 
-Since we need to use `apt` installation, first make sure apt source is available
+Since we need to use `apt` installation, first make sure apt source is available
 ```
 sudo apt-get update
 ```
-![Omni Step 1](../assets/omni1.png)
+![Omni Step 1](./assets/omni1.png)
 
 #### Install basic environment
 ```
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
 ```
-![Omni Step 2](../assets/omni2.png)
+![Omni Step 2](./assets/omni2.png)
 
 #### Install boost library
 ```
 sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 ```
-![Omni Step 3](../assets/omni3.png)
+![Omni Step 3](./assets/omni3.png)
 
 #### Install BerkeleyDB 
 Bitcoin requires BerkeleyDB 4.8 to maintain wallet compatibility. The official Ubuntu and Debian Berkeley DB is 5.1+. This high version is determined to break its compatibility.
@@ -136,7 +136,7 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```
-![Omni Step 4](../assets/omni4.png)
+![Omni Step 4](./assets/omni4.png)
 
 #### Install GUI dependency
 
@@ -154,7 +154,7 @@ cd omnicore/
 ./configure CXXFLAGS="--param ggc-min-expand=1 --param ggc-min-heapsize=32768" # optional
 make
 ```
-![Omni final](../assets/omni5.png)
+![Omni final](./assets/omni5.png)
 
 ## 📣 Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
