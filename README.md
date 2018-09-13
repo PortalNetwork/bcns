@@ -17,8 +17,6 @@ BCNS eliminates the need to copy or type long addresses. With BNS, you'll be abl
 
 BNS is a portable Omni Layer implementation that is based on the Bitcoin ABC codebase. This implementation requires no external dependencies extraneous to Bitcoin ABC, and is native to the Bitcoin Cash network just like other Bitcoin Cash nodes. BNS Layer extensions are exposed via the JSON-RPC interface.
 
-![BCNS](./assets/BCNS.png)
-
 ## 📁 Documents
 
 #### Table of Contents
@@ -31,6 +29,10 @@ BNS is a portable Omni Layer implementation that is based on the Bitcoin ABC cod
 - [Integration](./docs/INTEGRATION.md)
 - [BCNS Stack](./docs/BCNS_STACK.md)
 - [Omni Layer](./docs/OMNI_LAYER.md)
+
+## BCNS Workflow
+
+![BCNS](./assets/BCNS.png)
 
 ## 🗂️ BCNS Stack
 
