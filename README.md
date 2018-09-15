@@ -36,7 +36,7 @@ BNS is a portable Omni Layer implementation that is based on the Bitcoin ABC cod
 
 ## 🗂️ BCNS Stack
 
-Bitcoin Cash name service (BCNS) contains the resolver, registrar, and registry components which governs the rules from how to fairly register the Bitcoin Cash domain name to the content resolving mechanism of each domain. The Bitcoin Cash covenant can be implemented in `OP_RETURN` code, and write and convert the related information through the Omni Layer. Those different layers provides the robust infrastructure to let developers can build decentralized application on top of Bitcoin Cash.
+Bitcoin Cash Name Service (BCNS) contains the resolver, registrar, and registry components which governs the rules from how to fairly register the Bitcoin Cash domain name to the content resolving mechanism of each domain. The Bitcoin Cash covenant can be implemented in `OP_RETURN` code, and write and convert the related information through the Omni Layer. Those different layers provides the robust infrastructure to let developers can build decentralized application on top of Bitcoin Cash.
 
 ![BCNS Stack](./assets/BCNS-stack.jpg)
 
