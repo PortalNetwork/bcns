@@ -1,4 +1,4 @@
-![Bitcoin Cash Name Service](./assets/title.png)
+![Bitcoin Cash Name Service](./assets/cover.png)
 
 > 📙🔍 Documents and implementations for the Bitcoin Cash Name Service.
 
