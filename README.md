@@ -58,7 +58,7 @@ Developers can write Bitcoin Cash Script utilizing the `OP_RETURN` code to opera
 The design of digital assets can have more functions through combing the State Layer and Computation Layer, such as : crypto assets, and identities. Those programmable assets has many more potential usages and sub-economies within.
 BCNS stand for Bitcoin Cash Name Service, which include three major component:
 - The BCNS registry component can operate the set of logics to record the mapping between the Bitcoin Cash domains and its owners.  
-- The BCNS registrar component can govern how to own a domain though the customized auction or trading rules.
+- The BCNS registrar component can govern how to own a domain through the customized auction or trading rules.
 - The BCNS resolver component can process the mechanism for getting the related representative resources from wallet address to decentralized application or website behind the Bitcoin Cash domain.  
 
 Other components:   
