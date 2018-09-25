@@ -77,7 +77,7 @@ BCNS uses Omni Layer to interact with the `OP_RETURN` script and store related B
 ### Protocol Layer 
 
 #### BNS protocol
-The BNS protcol is a standard which can make the Bitcoin Cash name service more efficent. The protocol essentially for the user control layer and the application layer which can let more applications and services can be built on top of it. 
+The BNS protocol is a standard which can make the Bitcoin Cash name service more efficient. The protocol essentially for the user control layer and the application layer which can let more applications and services can be built on top of it. 
 
 ![BCNS Protocol Layer](./assets/BCNS-05.jpg)
 
